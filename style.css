@@ -1,0 +1,112 @@
+/** @format */
+@import url("./reset.css");
+body {
+  background-color: rgb(132 204 22);
+}
+.container {
+  margin: auto;
+  width: 400px;
+}
+.main-section {
+  border: solid 6px green;
+  border-radius: 10px;
+  border-style: groove;
+  padding: 20px;
+  margin-top: 100px;
+
+  background-color: #f4d03f;
+  background-image: linear-gradient(45deg, #f4d03f 0%, #16a085 100%);
+}
+input {
+  background-color: rgb(134 239 172);
+}
+.input-panel {
+  border: solid 2px gray;
+  border-radius: 10px;
+}
+.input-label {
+  display: flex;
+  justify-content: space-evenly;
+  padding: 20px;
+}
+h3 {
+  text-align: center;
+  margin-top: 1px;
+  margin-bottom: 20px;
+  font-size: 20px;
+}
+.label-div label {
+  display: flex;
+  flex-direction: column;
+  margin-right: 30px;
+  font-size: 14px;
+  padding: 3px;
+  margin-bottom: 6px;
+  text-align: right;
+}
+.input-div input {
+  margin-bottom: 8px;
+  display: flex;
+  flex-direction: column;
+  width: 100px;
+  font-size: 12px;
+  padding: 3px 5px;
+  border: solid 1px gray;
+  border-radius: 3px;
+}
+.input-label-btn {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 30px;
+  border: 2px solid gray;
+  border-radius: 10px;
+  padding: 15px 15px;
+}
+.btn {
+  color: white;
+  border: solid 1px green;
+  border-radius: 5px;
+  font-size: 12px;
+  padding: 3px 12px;
+  background-color: teal;
+}
+.result-title h4 {
+  text-align: center;
+  margin-top: 10px;
+}
+.result-show {
+  margin-top: 30px;
+  border: solid 2px gray;
+  border-radius: 10px;
+}
+.label-rsult {
+  display: flex;
+  flex-direction: column;
+}
+.result-show input {
+  width: 100px;
+  border: solid 1px green;
+  border-radius: 3px;
+  font-size: 12px;
+  padding: 4px;
+}
+.result-show label {
+  font-size: 14px;
+}
+
+.result-answer-true{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-evenly;
+  margin-bottom: 10px;
+  margin-top: 10px;
+}
+.result-answer-fasle{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-evenly;
+  margin-bottom: 15px;
+
+}
